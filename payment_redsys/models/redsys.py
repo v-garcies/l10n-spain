@@ -124,10 +124,11 @@ class AcquirerRedsys(models.Model):
 
         domain = http.request.website.domain
         if domain and domain != "localhost":
-            base_url = "{}://{}".format(
-                http.request.httprequest.environ["wsgi.url_scheme"],
-                http.request.website.domain,
-            )
+            # base_url = "{}://{}".format(
+            #     http.request.httprequest.environ["wsgi.url_scheme"],
+            #     http.request.website.domain,
+            # )
+            base_url = http.request.website.domain
         else:
             base_url = self.env["ir.config_parameter"].sudo().get_param("web.base.url")
         return base_url or ""
