@@ -10,3 +10,5 @@
 * `Acysos S.L. <https://www.acysos.com>`_:
 
   * Ignacio Ibeas <ignacio@acysos.com>
+
+* `Adgensee <https://www.adgensee.com>`_

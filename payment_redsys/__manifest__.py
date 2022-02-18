@@ -1,5 +1,6 @@
 # Copyright 2017 Tecnativa - Sergio Teruel
 # Copyright 2020 Tecnativa - João Marques
+# Copyright 2022 Adgensee
 
 {
     "name": "Pasarela de pago Redsys",
